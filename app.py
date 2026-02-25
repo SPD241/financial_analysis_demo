@@ -105,7 +105,7 @@ class Streamlit_App:
                     rsi = tools.Relative_Strength_Index(data=data)
                     st.session_state["analysis_outputs"]["RSI"] = rsi
 
-                    st.line_chart(rsi[["RS", "RSI"]])
+                    st.line_chart(rsi[["RSI"]])
 
                 
                 elif self.analysis_tools == "MACD":
