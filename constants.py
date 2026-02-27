@@ -1,3 +1,5 @@
+import os
+
 FOREX_PAIRS = [
     "EURUSD=X",
     "GBPUSD=X",
@@ -29,4 +31,4 @@ URL_IMAGE = "https://newsbit.nl/app/uploads/2023/06/Forex-Trading-scaled.webp"
 
 ANALYSIS_TOOLS = [ "RSI", "MACD", "Bollinger Bands", "Moving Averages", "Candlestick Patterns", "Ichimoku Cloud Analysis" ]
 
-API_KEY = "AIzaSyBe09yRs-qCLGd0kTVtGYQhbh3J-dGHdtc"
+API_KEY = os.environ.get("GOOGLE_API_KEY")
