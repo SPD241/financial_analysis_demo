@@ -1,11 +1,10 @@
 import google.generativeai as genai
-from constants import API_KEY
 import os
 import numpy as np
 
 class Generative_Model:
     def __init__(self):
-        api_key = API_KEY
+        api_key = os.environ.get("GOOGLE_API_KEY")
         if not api_key:
             raise RuntimeError("GOOGLE_API_KEY environment variable is not set")
         
