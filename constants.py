@@ -31,4 +31,4 @@ URL_IMAGE = "https://newsbit.nl/app/uploads/2023/06/Forex-Trading-scaled.webp"
 
 ANALYSIS_TOOLS = [ "RSI", "MACD", "Bollinger Bands", "Moving Averages", "Candlestick Patterns", "Ichimoku Cloud Analysis" ]
 
-API_KEY = "AIzaSyC9UCoW0deSe2HesM96WiQfS8s6ZdA7hkQ"
+API_KEY = ""
